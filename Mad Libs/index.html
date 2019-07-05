@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Mad Libs!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+  <div class="main">
+    <!-- Intro -->
+    <h1 id='title'>Mad Libs</h1>
+
+    <!-- Text input -->
+      <p>Enter the words and click <span>Create Mad Lib!</span> to get a short story!</p>
+      <p>Noun 1: <input type='text' id='noun1'><br></p>
+      <p>Noun 2: <input type='text' id='noun2'><br></p>
+      <p>Body Part: <input type='text' id='bodyPart'><br></p>
+      <p>Verb: <input type='text' id='verb'><br></p>
+      <p>Emotion: <input type='text' id='emotion'><br></p>
+      <p>Number: <input type='number' id='number'><br></p>
+
+    <!-- Submit and Restart Buttons -->
+    <input type='submit' value='Create Mad Lib!' id='submit'>
+    <input type='submit' value='Restart' id='restart'>
+
+    <!-- Mad Lib Appears -->
+    <hr>
+    <h3 id='libTitle'></h3>
+    <p id='output'></p>
+  
+    <!-- Javascript -->
+    <script src='main.js'></script>
+
+  </div>
+
+  </body>
+
+
+</html>
